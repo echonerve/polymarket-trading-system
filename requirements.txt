@@ -1,0 +1,11 @@
+# The sandbox itself (paper trading, backtest, screener, dashboard, AI brain)
+# uses ONLY the Python standard library. Nothing to install. Python 3.9+.
+#
+# You ONLY need the packages below for the LIVE trading layer (live_executor.py,
+# `python bot.py --live`). Install them only on the machine that will trade live:
+#
+#     pip install py-clob-client
+#
+# py-clob-client          # official Polymarket order client (LIVE mode only)
+#
+# Dry-run, paper, backtest, screener and dashboard all work WITHOUT it.
