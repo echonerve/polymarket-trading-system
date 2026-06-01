@@ -245,6 +245,20 @@ Trading involves real risk of loss.*
 
 ---
 
+## Contributing & testing
+
+Contributions, bug reports, and test feedback are welcome. Quick version:
+
+- **Test it / report bugs:** run `python selftest.py`, then open an
+  [issue](../../issues) (bug or idea templates provided).
+- **Contribute code:** fork → branch → make sure `python selftest.py` passes →
+  open a pull request against `main`. See [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Ground rule:** this project stays honest — no profit guarantees, risk
+  disclaimers stay, and safety defaults (dry-run, TLS verification, risk limits)
+  are never weakened.
+
+---
+
 <div align="center">
 
 Built by **[echonerve](https://echonerve.com)** · © 2026 echonerve · [MIT License](LICENSE)
